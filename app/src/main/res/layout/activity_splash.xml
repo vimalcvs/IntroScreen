@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@color/colorPrimary"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_main_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <TextView
+        android:textSize="@dimen/spacing_32"
+        android:textColor="#D9FFFFFF"
+        android:id="@+id/status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/status"
+        android:includeFontPadding="false"
+        android:layout_marginEnd="10.0dip"
+        app:layout_constraintEnd_toStartOf="@+id/saver_tv"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splash"
+        android:layout_marginRight="10.0dip" />
+
+    <TextView
+        android:textSize="@dimen/spacing_32"
+        android:textColor="#D9000000"
+        android:id="@+id/saver_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saver"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/roboto_bold"
+        app:layout_constraintBottom_toBottomOf="@+id/status_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/status_tv"
+        app:layout_constraintTop_toTopOf="@+id/status_tv" />
+
+    <TextView
+        android:textSize="@dimen/spacing_11"
+        android:textColor="#D9FFFFFF"
+        android:id="@+id/forever_whatsapp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_gravity="end|bottom|center"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/for_whatsapp"
+        android:includeFontPadding="false"
+        android:paddingStart="10.0dip"
+        android:paddingEnd="10.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status_tv" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginTop="160dp"
+        android:indeterminateTint="@color/green_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forever_whatsapp"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"/>
+
+
+    <TextView
+        android:id="@+id/made"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_20sdp"
+        android:text="@string/made_in_india"
+        android:textAlignment="center"
+        android:textColor="#D9FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

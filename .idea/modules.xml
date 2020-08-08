@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/IntroScreen-master.iml" filepath="$PROJECT_DIR$/.idea/IntroScreen-master.iml" group="IntroScreen-master" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="IntroScreen-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IntroScreen.iml" filepath="$PROJECT_DIR$/.idea/modules/IntroScreen.iml" group="IntroScreen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="IntroScreen/app" />
     </modules>
   </component>
 </project>

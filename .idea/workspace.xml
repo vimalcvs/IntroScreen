@@ -30,6 +30,16 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1feuyXjJnXoNrtmTZIrVrphQoQe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +49,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vimal.cvs.introscreen" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -118,10 +134,18 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="468" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1474.864@0.0.1474.864" timestamp="1596592289227" />
+    <state x="318" y="187" key="AndroidCreateResourceFileDialog" timestamp="1596610501063">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="318" y="187" key="AndroidCreateResourceFileDialog/0.0.1474.864@0.0.1474.864" timestamp="1596610501063" />
     <state x="518" y="187" key="FileChooserDialogImpl" timestamp="1596592212372">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1596592212372" />
+    <state x="246" y="75" key="SettingsEditor" timestamp="1596610248907">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="246" y="75" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1596610248907" />
     <state x="366" y="129" width="742" height="606" key="find.popup" timestamp="1596592687621">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
